@@ -306,7 +306,7 @@ function animateFireworks() {
 // Launch fireworks more frequently with varied launch positions
 setInterval(() => {
     if (soundEnabled) {
-        playLaunchSound(); // Play launch sound when firework is launched
+        //playLaunchSound(); // Play launch sound when firework is launched
     }
     fireworks.push(new Firework(
         Math.random() * canvas.width, 
